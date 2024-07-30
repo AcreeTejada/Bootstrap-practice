@@ -1,25 +1,19 @@
-body {
-    margin-top: 40px; /* This margin just makes the text easier to read. You can remove it if you want since it can mess with your other styles. */
+  body {
+    background-color: white;
+    padding: 40px;
   }
   
-  body::before {
-    content: "XS";
-    color: red;
-    font-size: 2rem;
-    font-weight: bold;
-    position: fixed;
-    top: 0;
-    right: 0;
-  }
-  
-  /* This box class is purely used for explaining how the bootstrap grid system works. */
-  .box {
-    background-color: lightblue;
-    border: 1px solid blue;
-    min-height: 50px;
-    font-size: 2rem;
-  }
-  
+  .block1 { background-color:#0d6efd; }
+  .block2 { background-color:#6610f2; }
+  .block3 { background-color:#6f42c1; }
+  .block4 { background-color:#d63384; }
+  .block5 { background-color:#dc3545; }
+  .block6 { background-color:#fd7e14; }
+  .block7 { background-color:#ffc107; }
+  .block8 { background-color:#198754; }
+  .block9 { background-color:#20c997; }
+  .block10 { background-color:#0dcaf0; }
+
   @media (min-width: 576px) {
     body::before {
       content: "SM";
