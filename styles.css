@@ -2,7 +2,12 @@
     background-color: white;
     padding: 40px;
   }
-  
+
+  .col-1 {
+    width: 100px; /* Set a width */
+    height: 100px; /* Set a height */
+  }
+
   .block1 { background-color:#0d6efd; }
   .block2 { background-color:#6610f2; }
   .block3 { background-color:#6f42c1; }
